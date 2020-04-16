@@ -12,23 +12,53 @@
     <title>IFTUDIES</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F0FFFF;">
       <a class="navbar-brand" href="index.html">IFSTUDIES</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-      <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-       <div class="navbar-nav">
-          <a class="nav-item nav-link" href="disciplinas.html">Disciplinas</a>
-          <a class="nav-item nav-link" href="banco_de_exercicios.html">Banco de Exercícios</a>
-          <a class="nav-item nav-link" href="simulados.html">Simulados</a>
-          <a class="nav-item nav-link" href="desempenho.html">Desempenho</a>
-          <a class="nav-item nav-link" href="mural.html">Mural</a>
-          <a class="nav-item nav-link" href="sobre_if.html">Sobre o IF</a>
-          <a class="nav-item nav-link" href="login.html">Login</a>       
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Disciplinas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="portugues.html">Português</a>
+              <a class="dropdown-item" href="matematica.html">Matemática</a>
+              <a class="dropdown-item" href="redacao.html">Redação</a>
+            </div>
+          </li>          
+          <li class="nav-item active">
+            <a class="nav-link" href="banco_de_exercicios.html"> Banco de Exercícios </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="simulados.html"> Simulados </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="desempenho.html"> Desempenho </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="mural.html"> Mural </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="sobre_if.html"> Sobre o IF </a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Login
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="login2.html">Login</a>
+              <a class="dropdown-item" href="cadastro.html">Cadastro</a>
+            </div>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </nav>    
+
+
     
     <br>
 
@@ -41,25 +71,25 @@
         <div class="col-8">
             <div class="row">
               <div class="col border border-dark">
-                <a href=""><img src="imagens/icon1.PNG"></a>
+                <a href=""><img src="imagens/icon1.png"></a>
               </div>
               <div class="col  border border-dark">
-                <a href=""><img src="imagens/icon2.PNG"></a>
+                <a href=""><img src="imagens/icon2.png"></a>
               </div>
               <div class="col  border border-dark">
-                <a href=""><img src="imagens/icon3.PNG"></a>
+                <a href=""><img src="imagens/icon3.png"></a>
               </div>
             </div>
 
             <div class="row">
               <div class="col  border border-dark">
-                <a href=""><img src="imagens/icon4.PNG"></a>
+                <a href=""><img src="imagens/icon4.png"></a>
               </div>
               <div class="col  border border-dark">
-                <a href=""><img src="imagens/icon5.PNG"></a>
+                <a href=""><img src="imagens/icon5.png"></a>
               </div>
               <div class="col  border border-dark">
-                <a href="login.html"><img src="imagens/icon6.PNG"></a>
+                <a href="login.html"><img src="imagens/icon6.png"></a>
               </div>
             </div>
           
@@ -71,7 +101,7 @@
 
 
   <br>
-  <footer class="footer fixed-bottom bg-light">
+  <footer class="footer fixed-bottom" style="background-color: #F0FFFF">
     <article id="footer">&copy; IFSTUDIES 2020</article>
 
   </footer> 
