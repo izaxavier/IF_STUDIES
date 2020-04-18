@@ -1,7 +1,12 @@
 
-a:hover {
+
+a#menu:hover {
   background-color: lightgreen;
   border-radius: 25px;
+}
+
+.dropdown-item:hover{
+    background-color: lightgreen;
 }
 
 h4{
@@ -18,5 +23,38 @@ h4{
 }
 
 
+div#imagens img {
+  width: 500px!important;
+  height: 300px!important;
+}
+
+div#icones img {
+  width: 200px!important;
+  height: 200px!important;
+}
+
+div#icon1:hover {
+  background-color: #FFE4B5;
+}
+
+div#icon2:hover {
+  background-color: #F0F8FF;
+}
+div#icon3:hover {
+  background-color: #FFF0F5;
+}
+div#icon4:hover {
+  background-color: #F0E68C;
+}
+div#icon5:hover {
+  background-color: #708090;
+}
+div#icon6:hover {
+  background-color: #F4A460;
+}
 
 
+tr#tabela_cursos:hover{
+  background-color: lightgreen;
+
+}
