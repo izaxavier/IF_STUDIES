@@ -29,14 +29,13 @@ div#imagens img {
 }
 
 div#icones img {
-  width: 200px!important;
+  width: 100px!important;
   height: 200px!important;
 }
 
 div#icon1:hover {
   background-color: #FFE4B5;
 }
-
 div#icon2:hover {
   background-color: #F0F8FF;
 }
@@ -58,3 +57,47 @@ tr#tabela_cursos:hover{
   background-color: lightgreen;
 
 }
+
+.overlay {
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  text-align: center;
+}
+
+#icon1:hover .overlay {
+  opacity: 1;
+}
+#icon2:hover .overlay {
+  opacity: 1;
+}
+#icon3:hover .overlay {
+  opacity: 1;
+}
+#icon4:hover .overlay {
+  opacity: 1;
+}
+#icon5:hover .overlay {
+  opacity: 1;
+}
+#icon6:hover .overlay {
+  opacity: 1;
+}
+
+div#divPortugues1 {
+  border-radius: 25px;
+  background: #FFC1C1;
+}
+div#divPortugues2 {
+  border-radius: 25px;
+  background: #FFA07A;
+}
+div#divMatematica1 {
+  border-radius: 25px;
+  background: #A4D3EE;
+}
+div#divMatematica2 {
+  border-radius: 25px;
+  background: #6CA6CD;
+}
+
