@@ -145,4 +145,8 @@ ul#menu li a:hover {
 background-color: lightgreen;
 }
 
+div#ifstudiestop{
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
 
