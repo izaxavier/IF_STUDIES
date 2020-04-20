@@ -1,4 +1,6 @@
-
+h1{
+  font-family: Bodoni MT Black;
+}
 
 a#menu:hover {
   background-color: lightgreen;
@@ -29,8 +31,8 @@ div#imagens img {
 }
 
 div#icones img {
-  width: 100px!important;
-  height: 200px!important;
+  width: 50px!important;
+  height: 150px!important;
 }
 
 div#icon1:hover {
@@ -51,6 +53,25 @@ div#icon5:hover {
 div#icon6:hover {
   background-color: #F4A460;
 }
+img#icon1:hover{
+  filter: blur(5px);
+}
+img#icon2:hover{
+  filter: blur(5px);
+}
+img#icon3:hover{
+  filter: blur(5px);
+}
+img#icon4:hover{
+  filter: blur(5px);
+}
+img#icon5:hover{
+  filter: blur(5px);
+}
+img#icon6:hover{
+  filter: blur(5px);
+}
+
 
 
 tr#tabela_cursos:hover{
@@ -59,6 +80,10 @@ tr#tabela_cursos:hover{
 }
 
 .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   transition: .5s ease;
   opacity:0;
@@ -66,7 +91,7 @@ tr#tabela_cursos:hover{
 }
 
 #icon1:hover .overlay {
-  opacity: 1;
+  opacity: 9;
 }
 #icon2:hover .overlay {
   opacity: 1;
@@ -85,19 +110,25 @@ tr#tabela_cursos:hover{
 }
 
 div#divPortugues1 {
-  border-radius: 25px;
+  border-radius: 50px;
   background: #FFC1C1;
 }
 div#divPortugues2 {
-  border-radius: 25px;
+  border-radius: 50px;
   background: #FFA07A;
 }
 div#divMatematica1 {
-  border-radius: 25px;
+  border-radius: 50px;
   background: #A4D3EE;
 }
 div#divMatematica2 {
-  border-radius: 25px;
+  border-radius: 50px;
   background: #6CA6CD;
 }
+
+div.card img{
+  width: 190px;
+  height: 200px;
+}
+
 
