@@ -50,7 +50,7 @@ body {
   transition: margin-left 0.7s;
   overflow: hidden;
   width: 100%;
-  overflow: auto;
+  
 }
 
 .overlay {
@@ -64,14 +64,32 @@ body {
   text-align: center;
 }
 
+
+
+div #card_banco_exercicios, #card_disciplinas, #card_simulados {
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
+div .card a {
+  color: white;
+}
+
+
 div#icones img {
-  width: 70px!important;
-  height: 150px!important;
+  width: 30px!important;
+  height: 120px!important;
+}
+
+div #icon1, #icon2, #icon3, #icon4, #icon5, #icon6 {
+  width: 120px;
+  height: 120px;
 }
 
 div#icon1:hover {
   background-color: #FFE4B5;
 }
+
 div#icon2:hover {
   background-color: #F0F8FF;
 }
@@ -118,29 +136,27 @@ tr#tabela_cursos:hover{
 }
 
 #icon1:hover .overlay {
-  opacity: .1;
+  opacity: 1;
 }
 #icon2:hover .overlay {
-  opacity: .1;
+  opacity: 1;
 }
 #icon3:hover .overlay {
-  opacity: .1;
+  opacity: 1;
 }
 #icon4:hover .overlay {
-  opacity: .1;
+  opacity: 1;
 }
 #icon5:hover .overlay {
-  opacity: .1;
+  opacity: 1;
 }
 #icon6:hover .overlay {
-  opacity: .1;
+  opacity: 1;
 }
 
 .flex {
   display: flex;
 }
-
-
 
 
 }

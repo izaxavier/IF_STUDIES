@@ -1,118 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
-    <title>IFTUDIES</title>
+    <title>IF STUDIES</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="css/estilo_menu.css">
+  <script>
+    function abreMenu(){
+      document.getElementById('menu_lateral').style.width = '200px';
+      document.getElementById('container1').style.marginLeft = '200px';
+    }
+    function fechaMenu(){
+      document.getElementById('menu_lateral').style.width = '0';
+      document.getElementById('container1').style.marginLeft = '0';
+    }
+  </script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F0FFFF;">
-      <a class="navbar-brand" href="index.html">IFSTUDIES</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Disciplinas
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="portugues.html">Português</a>
-              <a class="dropdown-item" href="matematica.html">Matemática</a>
-              <a class="dropdown-item" href="redacao.html">Redação</a>
-            </div>
-          </li>          
-          <li class="nav-item active">
-            <a class="nav-link" href="banco_de_exercicios.html"> Banco de Exercícios </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="simulados.html"> Simulados </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="desempenho.html"> Desempenho </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="mural.html"> Mural </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="sobre_if.html"> Sobre o IF </a>
-          </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Login
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="login2.html">Login</a>
-              <a class="dropdown-item" href="cadastro.html">Cadastro</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav> 
 
-    <br>
-
-    <div class="container">
-      <div class="row">
-
-        <div class="col-sm">
-          <br>
-          <h4>Novo no IFSTUDIES? <br>Faça seu cadastro agora!</h4>
-          <br>
-          <form>
-              <div class="row">
-                <div class="col">
-                  <label>Nome</label>
-                  <input type="text" class="form-control" placeholder="Nome">
-                </div>
-                <div class="col">
-                  <label>Sobrenome</label>
-                  <input type="text" class="form-control" placeholder="Sobrenome">
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label for="phone">Telefone</label>
-                <input type="number" class="form-control" id="phone" aria-describedby="phone" placeholder="Seu telefone">
-              </div>              
-              <div class="form-group">
-                <label for="Email2">Endereço de email</label>
-                <input type="email" class="form-control" id="Email2" aria-describedby="emailHelp" placeholder="Seu email">
-              </div>
-              <div class="form-group">
-                <label for="Password2">Senha</label>
-                <input type="password" class="form-control" id="Password2" placeholder="Senha">
-              </div>
-              <div class="form-group">
-                <label for="Password2">Confirmar senha</label>
-                <input type="password" class="form-control" id="Password2" placeholder="Confirmar senha">
-              </div>
-              <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div> 
-              <br>
-              <button type="submit" class="btn btn-primary">Cadastrar</button>
-           </form>
+        <div id="container1">
+          <div id="if_studies">
             <br>
-        </div>
+            <h1><span class="slide">
+            <a href="#" onclick="abreMenu()">
+              <i class="fas fa-bars"></i>
+            </a>
+          </span>IF STUDIES</h1>
+            <br>
+          </div>
 
-      </div>
+          
 
-    </div>
+          <div id="menu_lateral" class="nav">
+            <a href="#" class="close" onclick="fechaMenu()">
+              <i class="fas fa-times"></i>
+            </a>
+            <a href="index.html">Home</a>
+            <a href="disciplinas.html">Disciplinas</a>
+            <a href="banco_de_exercicios.html">Banco de Exercícios</a>
+            <a href="simulados.html">Simulados</a>
+            <a href="sobre_if.html">Sobre o IF</a>
+            <a href="login2.html">Login</a>
+          </div> 
+
+          <br>
+
+        <div class="row">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm">
+                <br>
+                <h4>Novo no IFSTUDIES? <br>Faça seu cadastro agora!</h4>
+                <br>
+                <form>
+                    <div class="row">
+                      <div class="col">
+                        <label>Nome</label>
+                        <input type="text" class="form-control" placeholder="Nome">
+                      </div>
+                      <div class="col">
+                        <label>Sobrenome</label>
+                        <input type="text" class="form-control" placeholder="Sobrenome">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="phone">Telefone</label>
+                      <input type="number" class="form-control" id="phone" aria-describedby="phone" placeholder="Seu telefone">
+                    </div>              
+                    <div class="form-group">
+                      <label for="Email2">Endereço de email</label>
+                      <input type="email" class="form-control" id="Email2" aria-describedby="emailHelp" placeholder="Seu email">
+                    </div>
+                    <div class="form-group">
+                      <label for="Password2">Senha</label>
+                      <input type="password" class="form-control" id="Password2" placeholder="Senha">
+                    </div>
+                    <div class="form-group">
+                      <label for="Password2">Confirmar senha</label>
+                      <input type="password" class="form-control" id="Password2" placeholder="Confirmar senha">
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div> 
+                    <br>
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                 </form>
+                  <br>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>    
+      
+
+      
+      
 
     <br>
-    <footer class="footer fixed-bottom" style="background-color: #F0FFFF"> 
+    <footer class="footer fixed-bottom">
       <article id="footer">&copy; IFSTUDIES 2020</article>
 
     </footer> 
-  
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
   </body>
 </html>
