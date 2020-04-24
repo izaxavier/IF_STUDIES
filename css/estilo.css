@@ -1,6 +1,3 @@
-h1{
-  font-family: Bodoni MT Black;
-}
 
 a#menu:hover {
   background-color: lightgreen;
@@ -21,6 +18,8 @@ h4{
 
 .footer{
   text-align: center;
+  background: #009999;
+  color: white;
 
 }
 
@@ -131,22 +130,11 @@ div.card img{
   height: 200px;
 }
 
-ul#menu {
-width:150px;
-height: 1000px;
-background: linear-gradient(to right, #99ff99 0%, #ffffff 100%);
-margin:0;
-padding:0;
-list-style-type:none;
-}
 
 
-ul#menu li a:hover {
-background-color: lightgreen;
-}
 
-div#ifstudiestop{
-   background: linear-gradient(to right, #99ff99 0%, #ffffff 100%);
-}
+
+
+
 
 

@@ -1,172 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-
-    <title>IFTUDIES</title>
+    <title>IF STUDIES</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="css/estilo_menu.css">
+  <script>
+    function abreMenu(){
+      document.getElementById('menu_lateral').style.width = '200px';
+      document.getElementById('container1').style.marginLeft = '200px';
+    }
+    function fechaMenu(){
+      document.getElementById('menu_lateral').style.width = '0';
+      document.getElementById('container1').style.marginLeft = '0';
+    }
+  </script>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F0FFFF;">
-      <a class="navbar-brand" href="index.html" id="menu">IFSTUDIES</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Disciplinas
+        <div id="container1">
+          <div id="if_studies">
+            <br>
+            <h1><span class="slide">
+            <a href="#" onclick="abreMenu()">
+              <i class="fas fa-bars"></i>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="portugues.html" id="menu">Português</a>
-              <a class="dropdown-item" href="matematica.html" id="menu">Matemática</a>
-              <a class="dropdown-item" href="redacao.html" id="menu">Redação</a>
-            </div>
-          </li>          
-          <li class="nav-item active">
-            <a class="nav-link" href="banco_de_exercicios.html" id="menu"> Banco de Exercícios </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="simulados.html" id="menu"> Simulados </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="desempenho.html" id="menu"> Desempenho </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="mural.html" id="menu"> Mural </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="sobre_if.html" id="menu"> Sobre o IF </a>
-          </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Login
+          </span>IF STUDIES</h1>
+            <br>
+          </div>
+
+          
+
+          <div id="menu_lateral" class="nav">
+            <a href="#" class="close" onclick="fechaMenu()">
+              <i class="fas fa-times"></i>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="login2.html" id="menu">Login</a>
-              <a class="dropdown-item" href="cadastro.html" id="menu">Cadastro</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>    
+            <a href="index.html">Home</a>
+            <a href="disciplinas.html">Disciplinas</a>
+            <a href="banco_de_exercicios.html">Banco de Exercícios</a>
+            <a href="simulados.html">Simulados</a>
+            <a href="sobre_if.html">Sobre o IF</a>
+            <a href="login2.html">Login</a>
+          </div> 
 
-
-    
-    <br>
-
-    <!-- sem card -->
-    <div class="container" style="text-align: center;"> 
-      <div class="row ">
-        
-        <div class="col">
-          <br>
-          <h1 id="IFTUDIES">IF STUDIES</h1>
           <br>
 
-          <div class="row">
-            <div class="col-sm">
-              <br>
-              <h3>Comece seus estudos agora!</h3>
-              <br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm">
-              <div class="card" style="width: 12rem; ">
-                <img class="card-img-top" src="http://1.bp.blogspot.com/-vL-OVOslVdQ/Tkv0HPi_N0I/AAAAAAAAABI/Dx7iacysXmA/s320/portugues1.jpg" alt="Imagem de capa do card">
-                <div class="card-body">
-                  <a href="portugues.html" class="btn btn-primary">Português</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="card" style="width: 12rem; ">
-                <img class="card-img-top" src="https://www.cetecc.org.br/wp-content/uploads/2018/04/58521.jpg" alt="Imagem de capa do card">
-                <div class="card-body">
-                  <a href="matematica.html" class="btn btn-primary">Matemática</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="card" style="width: 12rem; ">
-                <img class="card-img-top" src="https://encceja.me/wp-content/uploads/2019/03/redacao-encceja-2019.png" alt="Imagem de capa do card">
-                <div class="card-body">
-                  <a href="redacao.html" class="btn btn-primary">Redação</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="row">
 
-        <div class="col-4" id="icones">
-            <div class="row">
-              <div class="col-sm border border-danger" style="border-radius: 50%;" id="icon1">
-                <a href="minhas_anotacoes.html"><img id="icon1" src="https://image.flaticon.com/icons/svg/413/413841.svg"></a>
-                <div class="overlay"><b>Minhas Anotações</b></div>
+          <div class="col-sm">
+            <section  class="container flex">
+              <div class="col-1"></div>
+
+              <div class="item" id="icones">
+                <div class="col" >
+                    <div class="col-sm border border-danger" style="border-radius: 50%;" id="icon1">
+                      <a href="minhas_anotacoes.html"><img id="icon1" src="https://image.flaticon.com/icons/svg/413/413841.svg"></a>
+                      <div class="overlay"><b>Minhas Anotações</b></div>
+                    </div>
+                </div>
               </div>
 
               <div class="col-1"></div>
 
-              <div class="col-sm  border border-primary" style="border-radius: 50%;" id="icon2">
-                <a href="minhas_redacoes.html"><img id="icon2" src="https://image.flaticon.com/icons/svg/624/624322.svg"></a>
-                <div class="overlay"><b>Minhas Redações</b></div>
+              <div class="item" id="icones">
+                <div class="col" >
+                    <div class="col-sm  border border-primary" style="border-radius: 50%;" id="icon2">
+                      <a href="minhas_redacoes.html"><img id="icon2" src="https://image.flaticon.com/icons/svg/624/624322.svg"></a>
+                      <div class="overlay"><b>Minhas Redações</b></div>
+                    </div>
+                </div>
               </div>
-            </div>
+            </section>
+
             <br>
 
-            <div class="row">
-              <div class="col-sm  border border-danger" style="border-radius: 50%;" id="icon3"> 
-                <a href="duvidas.html"><img id="icon3" src="https://image.flaticon.com/icons/svg/650/650661.svg"></a>
-                <div class="overlay"><b>Dúvidas</b></div>
+            <section  class="container flex">
+              <div class="col-1"></div>
+
+               <div class="item" id="icones"> 
+                <div class="col" >
+                    <div class="col-sm  border border-danger" style="border-radius: 50%;" id="icon3"> 
+                      <a href="duvidas.html"><img id="icon3" src="https://image.flaticon.com/icons/svg/650/650661.svg"></a>
+                      <div class="overlay"><b>Dúvidas</b></div>
+                    </div>
+                </div>
               </div>
 
               <div class="col-1"></div>
 
-              <div class="col-sm  border border-warning" style="border-radius: 50%;" id="icon4">
-                <a href="check_list.html"><img id="icon4" src="https://image.flaticon.com/icons/svg/1373/1373009.svg"></a>
-                <div class="overlay"><b>Check List</b></div>
+              <div class="item" id="icones">
+                <div class="col" >
+                    <div class="col-sm  border border-warning" style="border-radius: 50%;" id="icon4">
+                      <a href="check_list.html"><img id="icon4" src="https://image.flaticon.com/icons/svg/1373/1373009.svg"></a>
+                      <div class="overlay"><b>Check List</b></div>
+                    </div>
+                </div>
               </div>
-            </div>  
-            <br>          
+            </section>
 
-            <div class="row">
-              <div class="col-sm  border border-secondary" style="border-radius: 50%;" id="icon5">
-                <a href="cursos_if.html"><img id="icon5" src="https://image.flaticon.com/icons/svg/2000/2000920.svg"></a>
-                <div class="overlay"><b>Cursos do IF</b></div>
+            <br>
+
+            <section  class="container flex">
+              <div class="col-1"></div>
+
+              <div class="item" id="icones">
+                <div class="col" >
+                    <div class="col-sm  border border-secondary" style="border-radius: 50%;" id="icon5">
+                      <a href="cursos_if.html"><img id="icon5" src="https://image.flaticon.com/icons/svg/2000/2000920.svg"></a>
+                      <div class="overlay"><b>Cursos do IF</b></div>
+                    </div>
+                </div>
               </div>
 
               <div class="col-1"></div>
 
-              <div class="col-sm  border border-warning" style="border-radius: 50%;" id="icon6" >
-                <a href="estrategia_estudos.html"><img id="icon6" src="https://image.flaticon.com/icons/svg/2145/2145296.svg"></a> 
-                <div class="overlay"><b>Estrategia de Estudos</b></div> 
+              <div class="item" id="icones"> 
+                <div class="col" >
+                    <div class="col-sm  border border-warning" style="border-radius: 50%;" id="icon6" >
+                      <a href="estrategia_estudos.html"><img id="icon6" src="https://image.flaticon.com/icons/svg/2145/2145296.svg"></a> 
+                      <div class="overlay"><b>Estrategia de Estudos</b></div> 
+                    </div>
+                </div>
+              </div>
+              
+            </section>
+          </div>      
+
+          <div class="col-sm" style="text-align: center;">
+              <div class="row">
+              <div class="col-sm">
+                <br>
+                <h3>Comece seus estudos agora!</h3>
+                <br>
               </div>
             </div>
-        </div>
+            <div class="row">
+              <div class="col-sm">
+                <div class="card" style="width: 12rem; ">
+                  <img class="card-img-top" src="http://1.bp.blogspot.com/-vL-OVOslVdQ/Tkv0HPi_N0I/AAAAAAAAABI/Dx7iacysXmA/s320/portugues1.jpg" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <a href="portugues.html" class="btn btn-primary">Português</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 12rem; ">
+                  <img class="card-img-top" src="https://www.cetecc.org.br/wp-content/uploads/2018/04/58521.jpg" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <a href="matematica.html" class="btn btn-primary">Matemática</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 12rem; ">
+                  <img class="card-img-top" src="https://encceja.me/wp-content/uploads/2019/03/redacao-encceja-2019.png" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <a href="redacao.html" class="btn btn-primary">Redação</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      </div>
+          </div>
 
-    </div>
+        </div>    
       
 
+      
+      
 
-  <br>
-  <footer class="footer fixed-bottom" style="background-color: #F0FFFF">
-    <article id="footer">&copy; IFSTUDIES 2020</article>
+    <br>
+    <footer class="footer fixed-bottom" >
+      <article id="footer">&copy; IFSTUDIES 2020</article>
 
-  </footer> 
+    </footer> 
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  
+
+
   </body>
 </html>
+
