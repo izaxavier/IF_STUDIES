@@ -73,6 +73,7 @@ div #card_banco_exercicios, #card_disciplinas, #card_simulados {
 }
 div .card a {
   color: white;
+  opacity: .9;
 }
 
 
@@ -159,8 +160,6 @@ tr#tabela_cursos:hover{
 }
 
 
-}
-
 h2 {
   text-align: center;
   margin: 20px 0 0 0;
@@ -176,10 +175,6 @@ h2 {
 
 }
 
-div.card img{
-  width: 190px;
-  height: 200px;
-}
 
 #lista_disciplinas {
   background:  #3399ff;
