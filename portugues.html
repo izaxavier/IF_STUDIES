@@ -1,108 +1,377 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
-    <title>IFTUDIES</title>
+    <title>IF STUDIES</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="css/estilo_menu.css">
+  <script>
+    function abreMenu(){
+      document.getElementById('menu_lateral').style.width = '200px';
+      document.getElementById('container1').style.marginLeft = '200px';
+    }
+    function fechaMenu(){
+      document.getElementById('menu_lateral').style.width = '0';
+      document.getElementById('container1').style.marginLeft = '0';
+    }
+  </script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F0FFFF;">
-      <a class="navbar-brand" href="index.html">IFSTUDIES</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Disciplinas
+
+        <div id="container1">
+          <div id="if_studies">
+            <br>
+            <h1><span class="slide">
+            <a href="#" onclick="abreMenu()">
+              <i class="fas fa-bars"></i>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="portugues.html">Português</a>
-              <a class="dropdown-item" href="matematica.html">Matemática</a>
-              <a class="dropdown-item" href="redacao.html">Redação</a>
-            </div>
-          </li>          
-          <li class="nav-item active">
-            <a class="nav-link" href="banco_de_exercicios.html"> Banco de Exercícios </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="simulados.html"> Simulados </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="desempenho.html"> Desempenho </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="mural.html"> Mural </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="sobre_if.html"> Sobre o IF </a>
-          </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Login
+          </span>IF STUDIES</h1>
+            <br>
+          </div>
+
+          
+
+          <div id="menu_lateral" class="nav">
+            <a href="#" class="close" onclick="fechaMenu()">
+              <i class="fas fa-times"></i>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="login2.html">Login</a>
-              <a class="dropdown-item" href="cadastro.html">Cadastro</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>  
+            <a href="index.html">Home</a>
+            <a href="disciplinas.html">Disciplinas</a>
+            <a href="banco_de_exercicios.html">Banco de Exercícios</a>
+            <a href="simulados.html">Simulados</a>
+            <a href="sobre_if.html">Sobre o IF</a>
+            <a href="login2.html">Login</a>
+          </div> 
 
-    <div class="container" style="text-align: center;">
-      <div class="row">
-        <div class="col-sm">
-          <h3>Português</h3>
-          <div class="list-group">
-            <h5>Material de Estudo</h5>
-          <div class="row">
-            <div class="col-sm">
-              <a href="#" class="list-group-item" id="lista_assunto">Interpretação Textual</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Introdução à Linguística</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Gêneros Textuais x Tipos Textuais</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Fonologia</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Acentuação Gráfica</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Reforma Ortográfica da Língua Portuguesa</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Processo de Formação das Palavras</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Morfologia</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Emprego dos porquês</a>
-            </div>
+          <br>
 
+        <div class="row" style="text-align: center;">
+          <div class="col-1"></div>
 
-            <div class="col-sm">
-              <a href="#" class="list-group-item" id="lista_assunto">Sintaxe</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Funções dos pronomes relativos</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Colocação Pronominal</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Período Composto</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Concordância Nominal</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Concordância Verbal</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Regência Nominal</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Regência Verbal</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Acento Indicativo de Crase</a>
-              <a href="#" class="list-group-item" id="lista_assunto">Estilística</a>              
+          <div class="col-sm">
+            <h2 style="color: blue;">Escolha um assunto abaixo e bons estudos!</h2>
+            <br>
+
+            <div class="card-group">
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Interpretação Textual</p>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Introdução à Linguística</p>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Gêneros Textuais x Tipos Textuais</p>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Fonologia</p>
+                    <br>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+              
             </div>
           </div>
-          </div>
+          <div class="col-1"></div>
         </div>
-      </div>
-    </div>
-        
+
+        <!-- row2-->
+        <div class="row" style="text-align: center;">
+          <div class="col-1"></div>
+
+          <div class="col-sm"> 
+
+            <br>
+
+            <div class="card-group">
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Acentuação Gráfica</p>
+                    <br>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Reforma Ortográfica da Língua Portuguesa</p>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Processo de Formação das Palavras</p>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Morfologia</p>
+                    <br>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+              
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+
+        <!-- row3-->
+        <div class="row" style="text-align: center;">
+          <div class="col-1"></div>
+
+          <div class="col-sm">
+            <br>
+
+            <div class="card-group">
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Emprego dos Porquês</p>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Sintaxe</p>
+                    <br>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Funções dos Pronomes Relativos</p>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Colocação Pronominal</p>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+              
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+          
+        <!-- row4-->
+        <div class="row" style="text-align: center;">
+          <div class="col-1"></div>
+
+          <div class="col-sm">
+            <br>
+
+            <div class="card-group">
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Período Composto</p>
+                    <br>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Concordância Nominal</p>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Concordância Verbal</p>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Acento Indicativo de Crase</p>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+              
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+
+        <!-- row5-->
+        <div class="row" style="text-align: center;">
+          <div class="col-2"></div>
+
+          <div class="col-sm">
+            <br>
+
+
+
+            <div class="card-group">
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Regência Nominal</p>
+                    <br>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Regência Verbal</p>
+                    <br>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="col-1"></div>
+
+              <div class="col-sm">
+                <div class="card border-primary" id="card_exercicio_PT" >
+                  <div class="card-body">
+                    <p class="card-title">Estilística</p>
+                    <br>
+                    <br>
+                    <a href=".html"><img src="https://image.flaticon.com/icons/svg/2802/2802901.svg"></a>
+                  </div>
+                </div>
+              </div><br>
+              
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
+
+  
+
 
     <br>
-    <footer class="footer fixed-bottom" style="background-color: #F0FFFF">
+    <footer class="footer fixed-bottom">
       <article id="footer">&copy; IFSTUDIES 2020</article>
 
     </footer> 
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
