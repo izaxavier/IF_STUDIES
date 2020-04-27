@@ -190,6 +190,7 @@ div #card_exercicio {
   width: 200px;
   height: 250px;
   border-radius: 15px;
+  margin: auto;
 }
 
 div #card_exercicio:hover {
