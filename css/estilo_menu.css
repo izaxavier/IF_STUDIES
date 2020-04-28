@@ -209,7 +209,7 @@ div #card_exercicio_PT{
   height: 200px;
   border-radius: 10px;
   border-width: 3px;
-
+  margin: auto;
 }
 
 div #card_exercicio_PT img{
@@ -229,6 +229,7 @@ div #card_Ano_simulado {
   height: 100px;
   border-radius: 10px;
   text-decoration: none;
+  margin: auto;
 }
 
 div #card_Ano_simulado:hover {
