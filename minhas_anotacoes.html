@@ -50,7 +50,90 @@
           <br>
 
         <div class="row">
+        <div class="container">
+      <div class="row">
+        <div class="col">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+              <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputtext1" >Nome</label>
+              <input type="text" class="form-control" id="exampleInputtext1" placeholder="Seu nome">
+            </div> 
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1" >Mensagem</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui sua mensagem"></textarea>
+            </div>             
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Receber mensagens de promoção no meu email.</label>
+            </div>
 
+            <!-- Botão para acionar modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado">
+              Enviar
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade"  id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content" > 
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="TituloModalCentralizado" >Geekiz</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Sua mensagem foi enviada, aguarde a resposta.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>       
+          </form>
+        </div>
+        <div class="col">
+          <p>Se você estiver com problemas em efetuar compras no nosso site, pode falar com algum dos membros da nossa loja. Aqui abaixo está a forma como você pode entrar em contato com a gente:</p>
+          <hr>
+          <table class="table" style="background-color: #F4FA58;">
+            <thead class="thead" style="background-color: #FFD700;">
+              <tr>
+                <th scope="col">Membros</th>
+                <th scope="col">Intagram</th>
+                <th scope="col">Facebook</th>
+                <th scope="col">Whatsapp</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Izabele Sales</th>
+                <td>@izaa_bele</td>
+                <td>Izabele Sales</td>
+                <td>(84) 9999-9999</td>
+              </tr>
+              <tr>
+                <th scope="row">Mateus Gonzaga</th>
+                <td>@mateus.23</td>
+                <td>Mateus Gonzaga</td>
+                <td>(84) 8888-8888</td>
+              </tr>
+              <tr>
+                <th scope="row">Vivian Matias</th>
+                <td>@ei.vii</td>
+                <td>Vivian Matias</td>
+                <td>(84) 7777-7777</td>
+              </tr>
+            </tbody>
+          </table>          
+        </div>
+      </div>
+    </div>
 
         </div>    
       
