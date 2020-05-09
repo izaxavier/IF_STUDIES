@@ -245,14 +245,10 @@ div #card_Ano_simulado a:hover {
 
 div #sobre_if {
   border-radius: 5px;
-  background: #3399ff;
-  color: white;
 
 }
 
-div #sobre_if a{
-  color: white;
-}
+
 
 div #porcentagem_disciplina {
   border-radius: 50%;
