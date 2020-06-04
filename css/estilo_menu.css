@@ -254,5 +254,7 @@ div #porcentagem_disciplina {
   border-radius: 50%;
 }
 
-
-
+div #menina_estudando img{
+  width: 300px;
+  height: 300px;
+}
