@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+div #assunto_PT{
+  font-family: Arial, sans-serif;
+}
+
 #if_studies{
   background: #3399ff;
   border-radius: 5px;
@@ -258,3 +262,5 @@ div #menina_estudando img{
   width: 300px;
   height: 300px;
 }
+
+
