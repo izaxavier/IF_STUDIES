@@ -1,0 +1,129 @@
+
+body {
+  font-family: Cambria, sans-serif;
+  
+}
+
+.container{
+  margin-top: 80px;
+}
+
+#menu{
+  background: #066a75;
+
+}
+#menu a{
+  color: white;
+  
+}
+
+#menu a:hover{
+
+  color: #066a75;
+  border-radius: 5px;
+  background: white;
+  
+}
+
+
+div .card {
+  border-color: blue;
+  margin: 2px ;
+}
+div .card a {
+  color: blue;
+}
+
+div .card:hover {
+  transform: scale(1.1);
+  transition: .8s;
+}
+
+
+h2 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+.footer{
+  text-align: center;
+  background:  #066a75;
+  color: white;
+  margin-bottom: 0; 
+
+}
+
+
+.disciplinas{
+  text-align: center;
+
+}
+
+div .card-disciplina{
+  margin: 10px;
+  width: 220px;
+  height: 160px;
+  position: relative;
+} 
+
+div .card-disciplina img{
+  width: 50px;
+  height: 80px;
+
+}
+
+
+.card-simulado {  
+  text-align: center;
+  margin: 10px auto;
+  position: relative;
+  text-decoration: none;
+
+}
+.card-simulado li:hover{
+  background: #066a75;
+  transform: scale(1.1);
+  transition: .4s;
+  border-radius: 10px;
+  color: white;
+}
+
+
+div .bolinha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 50%;
+  height: 160px;
+  
+}
+
+div .bolinha:hover {
+  transform: scale(1.1);
+  transition: .7s;
+  
+}
+
+div .bolinha img {  
+  width: 50px;
+  height: 50px;
+}
+
+div .atalho{
+  margin: 30px ;
+}
+
+div .texto{
+  margin-top: 200px;
+  text-align: center;
+}
+
+.sobre-IF{
+  text-align: center;
+  position: relative;
+  margin:  auto;
+}
