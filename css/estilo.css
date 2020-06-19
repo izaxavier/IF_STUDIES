@@ -18,7 +18,7 @@ body {
 }
 
 #menu a:hover{
-
+  cursor: pointer;
   color: #066a75;
   border-radius: 5px;
   background: white;
@@ -27,7 +27,7 @@ body {
 
 
 div .card {
-  border-color: blue;
+  border-color: black;
   margin: 2px ;
 }
 div .card a {
@@ -40,12 +40,7 @@ div .card:hover {
 }
 
 
-h2 {
-  text-align: center;
-  margin: 20px 0 0 0;
-  font-size: 1.25em;
-  font-weight: normal;
-}
+
 
 .footer{
   text-align: center;
@@ -62,10 +57,11 @@ h2 {
 }
 
 div .card-disciplina{
-  margin: 10px;
+  margin: 10px auto;
   width: 220px;
   height: 160px;
   position: relative;
+  
 } 
 
 div .card-disciplina img{
@@ -85,7 +81,7 @@ div .card-disciplina img{
 .card-simulado li:hover{
   background: #066a75;
   transform: scale(1.1);
-  transition: .4s;
+  transition: .6s;
   border-radius: 10px;
   color: white;
 }
@@ -126,4 +122,19 @@ div .texto{
   text-align: center;
   position: relative;
   margin:  auto;
+}
+
+.assunto{
+  position: relative;
+  margin: auto; 
+  margin-bottom: 50px;
+  
+}
+
+.assunto img{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
