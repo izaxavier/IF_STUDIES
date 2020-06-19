@@ -137,4 +137,20 @@ div .texto{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
+
+.assunto h1{
+  margin-bottom: 30px;
+}
+
+.assunto h3, h5{
+  margin-top: 30px;
+}
+
+.espaco-texto p{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
