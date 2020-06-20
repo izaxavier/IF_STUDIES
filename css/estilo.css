@@ -113,6 +113,11 @@ div .atalho{
   margin: 30px ;
 }
 
+.atalho a{
+  text-decoration: none;
+  color: black;
+}
+
 div .texto{
   margin-top: 200px;
   text-align: center;
@@ -154,3 +159,25 @@ div .texto{
   margin-top: 20px;
 }
 
+.chek-list {
+  margin: auto;
+}
+
+.chek-list h4{
+  background: #66CDAA;
+}
+
+#nav-tabContent-Check button, .col-4{
+  margin-top: 10px;
+}
+
+.titulos th{
+  background: #008B8B;
+  color: white;
+
+}
+
+#tabela_cursos {
+  margin-bottom: 30px;
+  position: relative;
+}
