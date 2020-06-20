@@ -1,0 +1,183 @@
+
+body {
+  font-family: Cambria, sans-serif;
+  
+}
+
+.container{
+  margin-top: 80px;
+}
+
+#menu{
+  background: #066a75;
+
+}
+#menu a{
+  color: white;
+  
+}
+
+#menu a:hover{
+  cursor: pointer;
+  color: #066a75;
+  border-radius: 5px;
+  background: white;
+  
+}
+
+
+div .card {
+  border-color: black;
+  margin: 2px ;
+}
+div .card a {
+  color: blue;
+}
+
+div .card:hover {
+  transform: scale(1.1);
+  transition: .8s;
+}
+
+
+
+
+.footer{
+  text-align: center;
+  background:  #066a75;
+  color: white;
+  margin-bottom: 0; 
+
+}
+
+
+.disciplinas{
+  text-align: center;
+
+}
+
+div .card-disciplina{
+  margin: 10px auto;
+  width: 220px;
+  height: 160px;
+  position: relative;
+  
+} 
+
+div .card-disciplina img{
+  width: 50px;
+  height: 80px;
+
+}
+
+
+.card-simulado {  
+  text-align: center;
+  margin: 10px auto;
+  position: relative;
+  text-decoration: none;
+
+}
+.card-simulado li:hover{
+  background: #066a75;
+  transform: scale(1.1);
+  transition: .6s;
+  border-radius: 10px;
+  color: white;
+}
+
+
+div .bolinha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 50%;
+  height: 160px;
+  
+}
+
+div .bolinha:hover {
+  transform: scale(1.1);
+  transition: .7s;
+  
+}
+
+div .bolinha img {  
+  width: 50px;
+  height: 50px;
+}
+
+div .atalho{
+  margin: 30px ;
+}
+
+.atalho a{
+  text-decoration: none;
+  color: black;
+}
+
+div .texto{
+  margin-top: 200px;
+  text-align: center;
+}
+
+.sobre-IF{
+  text-align: center;
+  position: relative;
+  margin:  auto;
+}
+
+.assunto{
+  position: relative;
+  margin: auto; 
+  margin-bottom: 50px;
+  
+}
+
+.assunto img{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.assunto h1{
+  margin-bottom: 30px;
+}
+
+.assunto h3, h5{
+  margin-top: 30px;
+}
+
+.espaco-texto p{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.chek-list {
+  margin: auto;
+}
+
+.chek-list h4{
+  background: #66CDAA;
+}
+
+#nav-tabContent-Check button, .col-4{
+  margin-top: 10px;
+}
+
+.titulos th{
+  background: #008B8B;
+  color: white;
+
+}
+
+#tabela_cursos {
+  margin-bottom: 30px;
+  position: relative;
+}

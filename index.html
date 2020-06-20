@@ -6,173 +6,127 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    
+    <link rel="icon" type="imagem/png" href="img/icone.png" />
     <title>IF STUDIES</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <link rel="stylesheet" href="css/estilo_menu.css">
-  <script>
-    function abreMenu(){
-      document.getElementById('menu_lateral').style.width = '200px';
-      document.getElementById('container1').style.marginLeft = '200px';
-    }
-    function fechaMenu(){
-      document.getElementById('menu_lateral').style.width = '0';
-      document.getElementById('container1').style.marginLeft = '0';
-    }
-  </script>
+    <link rel="stylesheet" href="css/estilo.css">
+  
   </head>
   <body>
 
-        <div id="container1">
-          <div id="if_studies">
-            <br>
-            <h1><span class="slide">
-            <a href="#" onclick="abreMenu()">
-              <i class="fas fa-bars"></i>
-            </a>
-          </span>IF STUDIES</h1>
-            <br>
+    <nav class="navbar navbar-expand-lg fixed-top" id="menu">
+      <a class="navbar-brand" href="index.html">IF STUDIES</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon" ><i class="fa fa-bars" style="color: white;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="textoNavbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="disciplinas.html">Disciplinas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="exercicios.html">Banco de Exercícios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="simulados.html">Simulados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre o IF</a>
+          </li>
+        </ul>
+        <span>
+          <a class="nav-link" href="login.html"><i class="fa fa-user"></i></a>
+        </span>
+      </div>
+    </nav>
+
+    <div class="container">
+    
+        <div class="row">
+          <div class="col-sm texto">
+            <h4>Qual o objetivo deste curso ?</h4>
+              <p>Ajudar você, aluno que quer ingressar no IFRN, disponibilizando gratuitamente conteúdo de português, matemática e redação para você mandar bem no exame. Além de todo o banco de questões e provas antigas. Este curso foi desenvolvido por próprias alunas do IF, pois queremos te ajudar a também alcançar o que alcançamos. Conte conosco para essa jornada. Para mais dúvidas acesse <b>ifstudies20@gmail</b>.</p> 
           </div>
 
-          
-
-          <div id="menu_lateral" class="nav">
-            <a href="#" class="close" onclick="fechaMenu()">
-              <i class="fas fa-times"></i>
-            </a>
-            <a href="index.html">Home</a>
-            <a href="disciplinas.html">Disciplinas</a>
-            <a href="banco_de_exercicios.html">Banco de Exercícios</a>
-            <a href="simulados.html">Simulados</a>
-            <a href="sobre_if.html">Sobre o IF</a>
-            <a href="login2.html">Login</a>
-          </div> 
-
-          <br>
-
-        <div class="row" style="text-align: center;">
-          <div class="col-1"></div>
-
           <div class="col-sm">
-
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <div class="card-group">
-                    <div class="card" id="card_disciplinas" style="background: #2E64FE;">
-                      <div class="card-body" >
-                        
-                        <br>
-                        <h5 class="card-title"><a href="disciplinas.html">Disciplinas</a></h5>
-                        <p class="card-text">Aqui você vai encontrar todo o material que precisa pra estudar.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <br>
-
-              <div class="row">
-                <div class="col">
-                  <div class="card-group">
-                    <div class="card" id="card_banco_exercicios" style="background: #2E64FE;">
-                      <div class="card-body" >
-                        
-                        <br>
-                        <h5 class="card-title"><a href="banco_de_exercicios.html">Banco de Exercícios</a></h5>
-                        <p class="card-text">Com o banco de exercícios você vai poder treinar o que aprendeu.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                </div>
-              
-
-              <br>
-
-              <div class="row">
-                <div class="col">
-                  <div class="card-group">
-                    <div class="card" id="card_simulados" style="background: #2E64FE;">
-                      <div class="card-body">
-                        
-                        <br>
-                        <h5 class="card-title"><a href="simulados.html">Simulados</a></h5>
-                        <p class="card-text">Os simulados vão te mostrar um pouco como é a prova do IF.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </div>
-         
-          
-          
-          <div class="col-1"></div>
-
-          <div class="col-sm">
-            <div class="row">
-              <div class="col-sm" id="menina_estudando">
-                <img src="img/menina_estudando.png" id="menina_estudando">
-              </div>
-            </div>
-            <br>
-
             <div class="row">
               <div class="col-sm">
-                <section  class="container flex">
-              <div class="col-1"></div>
-              <div class="item" id="icones">
-                <div class="col" >
-                    <div class="col-sm  border border-warning" style="border-radius: 50%;" id="icon4">
-                      <a href="check_list.html"><img id="icon4" src="https://image.flaticon.com/icons/svg/1373/1373009.svg"></a>
-                      <div class="overlay"><b>Check List</b></div>
-                    </div>
+                <img class="img-fluid" src="img/menina_estudando.png" />
+              </div>
+            </div>
+          </div>
+
+          </div>
+
+        <div class="row" style="text-align: center;">
+
+          <div class="col-sm atalho">
+            <div class="row">
+              <div class="col">
+                  <div class="card shadow rounded">
+                      <p class="card-title"><a href="disciplinas.html">Disciplinas</a></p>
+                      <p class="card-text">Aqui você vai encontrar todo o material que precisa pra estudar.</p>
+                  </div>
+              </div>
+            </div>
+              
+            <div class="row">
+              <div class="col">
+                <div class="card shadow rounded" >                   
+                    <p class="card-title"><a href="banco_de_exercicios.html">Banco de Exercícios</a></p>
+                    <p class="card-text">Com o banco de exercícios você vai poder treinar o que aprendeu.</p>
                 </div>
               </div>
+            </div>
               
 
-              <div class="item" id="icones">
-                <div class="col" >
-                    <div class="col-sm  border border-secondary" style="border-radius: 50%;" id="icon5">
-                      <a href="cursos_if.html"><img id="icon5" src="https://image.flaticon.com/icons/svg/2000/2000920.svg"></a>
-                      <div class="overlay"><b>Cursos do IF</b></div>
-                    </div>
+            <div class="row">
+              <div class="col">
+                  <div class="card shadow rounded" >                                           
+                      <p class="card-title"><a href="simulados.html">Simulados</a></p>
+                      <p class="card-text">Os simulados vão te mostrar um pouco como é a prova do IF.</p>            
+                  </div>
                 </div>
+            </div>
+          </div>
+
+          <div class="col-sm atalho">
+
+            <div class="row">
+              <div class="col-sm border border-dark bolinha shadow">
+                  <a href="check_list.html"><img class="card_bolinha" src="https://image.flaticon.com/icons/svg/1373/1373009.svg">
+                  <p><b>Check List</b></p></a>
               </div>
 
-              
+              <div class="col-sm border border-dark bolinha shadow">
+                  <a href="cursos_if.html"><img class="card_bolinha" src="https://image.flaticon.com/icons/svg/2000/2000920.svg">
+                  <p><b>Cursos do IF</b></p></a>
+              </div>
 
-              <div class="item" id="icones"> 
-                <div class="col" >
-                    <div class="col-sm  border border-warning" style="border-radius: 50%;" id="icon6" >
-                      <a href="estrategia_estudos.html"><img id="icon6" src="https://image.flaticon.com/icons/svg/2145/2145296.svg"></a> 
-                      <div class="overlay"><b>Estrategia de Estudos</b></div> 
-                    </div>
-                </div>
+              <div class="col-sm border border-dark bolinha shadow">
+                  <a href="estrategia_estudos.html"><img class="card_bolinha" src="https://image.flaticon.com/icons/svg/2145/2145296.svg"> 
+                  <p><b>Estrategia de Estudos</b></p></a> 
               </div>
-              
-            </section>
-              </div>
-              
             </div>
 
-          </div>     
+          </div>
 
+        </div>
 
-        </div>    
+    </div>
+
+             
+   
       
 
-      
-      
-
-    <br>
     <footer class="footer fixed-bottom" >
       <article id="footer">&copy; IFSTUDIES 2020</article>
 
     </footer> 
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
