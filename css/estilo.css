@@ -167,7 +167,7 @@ div .texto{
   background: #66CDAA;
 }
 
-#nav-tabContent-Check button, .col-4{
+#nav-tabContent-Check button, .col-8{
   margin-top: 10px;
 }
 
@@ -181,3 +181,4 @@ div .texto{
   margin-bottom: 30px;
   position: relative;
 }
+
